@@ -1226,7 +1226,7 @@ my_button.submit("main_win")
 | `indent_enabled`         | False | 输入单元格时使用当前缩进值(第0列默认)                                                   |
 | `indent_disable`         | False | 输入单元格时忽略当前的缩进值（默认为列>0）。在单元格内的缩进变化仍将被尊重(?)                              |
 
-###列排序
+### 列排序
 
 1. 在`dpg.table`添加属性`sortable=True`和`callback`
 2. 不要排序的列添加属性`no_sort=True`（默认`False`）
