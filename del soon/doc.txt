@@ -1,3 +1,0 @@
-from pyperclip import *
-paste()
-copy('xxx')
